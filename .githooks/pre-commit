@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "pre-commit: running Ruff..."
+exec py -m ruff check --select E501,F401 main.py
